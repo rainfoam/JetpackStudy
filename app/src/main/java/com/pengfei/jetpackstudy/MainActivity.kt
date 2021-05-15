@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,LiveDataActivity::class.java))
         }
 
+        //跳转到Viewmodel
+        findViewById<Button>(R.id.bt_viewmodel).setOnClickListener{
+            startActivity(Intent(this,ViewModelActivity::class.java))
+        }
+
+
 
     }
 }

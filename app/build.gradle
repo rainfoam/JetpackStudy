@@ -10,5 +10,6 @@ android {
 
 dependencies {
     implementation project(path: ':livedata')
+    implementation project(path: ':viewmodel')
 
 }
