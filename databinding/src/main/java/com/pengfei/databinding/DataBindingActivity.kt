@@ -5,7 +5,6 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ObservableField
-import com.cniao5.demo.*
 import com.pengfei.databinding.databinding.ActivityDatabindingBinding
 
 class DataBindingActivity : AppCompatActivity() {

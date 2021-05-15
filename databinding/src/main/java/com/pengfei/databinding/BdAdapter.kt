@@ -1,4 +1,4 @@
-package com.cniao5.demo
+package com.pengfei.databinding
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

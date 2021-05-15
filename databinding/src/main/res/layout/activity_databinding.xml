@@ -19,15 +19,15 @@
 
         <variable
             name="oUser"
-            type="com.cniao5.demo.ObUser" />
+            type="com.pengfei.databinding.ObUser" />
 
         <variable
             name="fUser"
-            type="com.cniao5.demo.FoUser" />
+            type="com.pengfei.databinding.FoUser" />
 
         <variable
             name="user"
-            type="com.cniao5.demo.User" />
+            type="com.pengfei.databinding.User" />
 
         <variable
             name="click"
@@ -39,7 +39,7 @@
 
         <variable
             name="info"
-            type="com.cniao5.demo.ItemBean" />
+            type="com.pengfei.databinding.ItemBean" />
 
         <variable
             name="imgRes"
