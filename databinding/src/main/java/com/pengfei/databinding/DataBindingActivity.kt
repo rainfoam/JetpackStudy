@@ -17,8 +17,8 @@ class DataBindingActivity : AppCompatActivity() {
         //赋值
         binding.apply {
 
-            name = null
-            address = "Beijing 海淀"
+            name = "张三"  //@{name}  @{name??`Null of Name`}为null就显示Null of Name  @{name==null?`null`:`nonull`}三元运算符
+            address = "北京" //@{address,default=`ShenZhen`}defult设置的值只在xml预览时有效,并不代表运行起来后有default值填充控件
 
             obName = ObservableField<String>("原始的obName")
 

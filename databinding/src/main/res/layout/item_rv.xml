@@ -2,8 +2,10 @@
 <layout xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <import type="com.pengfei.databinding.BdTool"/>
-        <import type="com.pengfei.databinding.BdToolKt"/>
+
+        <import type="com.pengfei.databinding.BdTool" />
+
+        <import type="com.pengfei.databinding.BdToolKt" />
 
         <variable
             name="info"
@@ -12,9 +14,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_height="wrap_content">
+        android:background="@android:color/darker_gray">
 
         <TextView
             android:layout_width="300dp"

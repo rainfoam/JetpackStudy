@@ -7,9 +7,7 @@ import androidx.databinding.ObservableInt
 
 //1、继承BaseObservable的binding数据
 class ObUser : BaseObservable() {
-
     var age = 30
-
     var name = ""
         set(value) {
             notifyPropertyChanged(BR.name)
@@ -17,7 +15,7 @@ class ObUser : BaseObservable() {
         }
         @Bindable
         get() {
-            return "$field 菲尔Name"
+            return "$field ObUser:Name"
         }
 
     var desc = "这是field的User,菲尔"
@@ -27,7 +25,7 @@ class ObUser : BaseObservable() {
         }
         @Bindable
         get() {
-            return "$field 菲尔Desc"
+            return "$field ObUser:Desc"
         }
     var str = ""
         set(value) {
@@ -41,13 +39,13 @@ class ObUser : BaseObservable() {
 //个别属性的binding
 class FoUser {
     var age = ObservableInt(20)
-    var name = ObservableField("欧泊Name")
-    var desc = ObservableField("这是BaseOb的User,欧泊")
+    var name = ObservableField("FoUser:Name")
+    var desc = ObservableField("FoUser:Desc")
     var str = "age=${age.get()},name=${name.get()},desc=${desc.get()}"
 }
 
 class User{
-    var age = 70
-    var name = "七十老牛"
-    var desc = "哈哈哈哈，七十的老牛"
+    var age = 60
+    var name = "李四"
+    var desc = "李四今年60大寿"
 }
