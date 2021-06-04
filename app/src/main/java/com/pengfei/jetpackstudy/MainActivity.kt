@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.pengfei.databinding.DataBindingActivity
 import com.pengfei.livedata.ui.LiveDataActivity
+import com.pengfei.network.ui.NetworkActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +26,11 @@ class MainActivity : AppCompatActivity() {
         //跳转到DataBinding
         findViewById<Button>(R.id.bt_databinding).setOnClickListener{
             startActivity(Intent(this, DataBindingActivity::class.java))
+        }
+
+        //跳转到Network
+        findViewById<Button>(R.id.bt_network).setOnClickListener{
+            startActivity(Intent(this, NetworkActivity::class.java))
         }
 
 

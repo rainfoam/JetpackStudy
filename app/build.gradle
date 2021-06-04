@@ -12,5 +12,6 @@ dependencies {
     implementation project(path: ':livedata')
     implementation project(path: ':viewmodel')
     implementation project(path: ':databinding')
+    implementation project(path: ':network')
 
 }
